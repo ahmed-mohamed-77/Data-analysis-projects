@@ -1,0 +1,331 @@
+
+
+------------------------------
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.659
+Model:                            OLS   Adj. R-squared:                  0.658
+Method:                 Least Squares   F-statistic:                     3536.
+Date:                Fri, 25 Oct 2024   Prob (F-statistic):               0.00
+Time:                        15:43:29   Log-Likelihood:            -4.9754e+05
+No. Observations:               34857   AIC:                         9.951e+05
+Df Residuals:                   34837   BIC:                         9.953e+05
+Df Model:                          19                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const               -1.019e+08   9.67e+06    -10.544      0.000   -1.21e+08    -8.3e+07
+Rooms                 1.87e+05   5821.837     32.123      0.000    1.76e+05    1.98e+05
+BuildingAge          4.337e+04   4556.307      9.520      0.000    3.44e+04    5.23e+04
+Distance             -2.15e+04    467.851    -45.949      0.000   -2.24e+04   -2.06e+04
+Postcode              307.9804     24.335     12.656      0.000     260.283     355.678
+Bedroom2             6080.1822   5948.981      1.022      0.307   -5580.011    1.77e+04
+Bathroom             1.256e+05   4141.482     30.328      0.000    1.17e+05    1.34e+05
+Car                  2.807e+04   2486.126     11.292      0.000    2.32e+04    3.29e+04
+Landsize                1.5955      0.865      1.844      0.065      -0.100       3.291
+BuildingArea           22.5826      4.319      5.229      0.000      14.117      31.048
+YearBuilt            4.153e+04   4552.068      9.122      0.000    3.26e+04    5.04e+04
+Lattitude            -4.68e+05   2.77e+04    -16.898      0.000   -5.22e+05   -4.14e+05
+Longtitude          -1.242e+04   2.12e+04     -0.586      0.558    -5.4e+04    2.91e+04
+Propertycount           3.4292      0.469      7.308      0.000       2.509       4.349
+encoded_Suburb          0.5930      0.011     55.780      0.000       0.572       0.614
+encoded_Type            0.6099      0.011     53.549      0.000       0.588       0.632
+encoded_Method          0.0610      0.038      1.621      0.105      -0.013       0.135
+encoded_SellerG         0.2597      0.008     31.488      0.000       0.244       0.276
+encoded_CouncilArea     0.0388      0.014      2.749      0.006       0.011       0.067
+encoded_Regionname      0.0129      0.013      0.976      0.329      -0.013       0.039
+==============================================================================
+Omnibus:                    26636.297   Durbin-Watson:                   1.904
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1576148.566
+Skew:                           3.165   Prob(JB):                         0.00
+Kurtosis:                      35.329   Cond. No.                     1.27e+10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.27e+10. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+------------------------------
+
+               Features   VIF_Values
+0                 const  22249407.08
+1                 Rooms         7.59
+2           BuildingAge      3062.50
+3              Distance         2.40
+4              Postcode         1.68
+5              Bedroom2         7.67
+6              Bathroom         1.88
+7                   Car         1.29
+8              Landsize         1.38
+9          BuildingArea         1.40
+10            YearBuilt      3065.73
+11            Lattitude         1.44
+12           Longtitude         1.45
+13        Propertycount         1.03
+14       encoded_Suburb         4.27
+15         encoded_Type         1.65
+16       encoded_Method         1.02
+17      encoded_SellerG         1.80
+18  encoded_CouncilArea         5.60
+19   encoded_Regionname         3.17
+
+------------------------------
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.654
+Model:                            OLS   Adj. R-squared:                  0.654
+Method:                 Least Squares   F-statistic:                     3869.
+Date:                Fri, 25 Oct 2024   Prob (F-statistic):               0.00
+Time:                        15:46:22   Log-Likelihood:            -4.9778e+05
+No. Observations:               34857   AIC:                         9.956e+05
+Df Residuals:                   34839   BIC:                         9.958e+05
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const               -2.134e+07   3.14e+06     -6.788      0.000   -2.75e+07   -1.52e+07
+Rooms                1.842e+05   5860.390     31.428      0.000    1.73e+05    1.96e+05
+Distance            -2.289e+04    460.658    -49.689      0.000   -2.38e+04    -2.2e+04
+Postcode              332.2432     24.480     13.572      0.000     284.262     380.224
+Bedroom2             1.436e+04   5977.515      2.402      0.016    2642.089    2.61e+04
+Bathroom             1.117e+05   4104.239     27.210      0.000    1.04e+05     1.2e+05
+Car                  2.501e+04   2497.034     10.014      0.000    2.01e+04    2.99e+04
+Landsize                2.0659      0.869      2.379      0.017       0.364       3.768
+BuildingArea           20.0927      4.318      4.653      0.000      11.628      28.557
+Lattitude           -5.105e+05   2.78e+04    -18.369      0.000   -5.65e+05   -4.56e+05
+Longtitude          -2037.3158   2.14e+04     -0.095      0.924   -4.39e+04    3.98e+04
+Propertycount           3.5496      0.472      7.513      0.000       2.624       4.476
+encoded_Suburb          0.5987      0.011     55.957      0.000       0.578       0.620
+encoded_Type            0.6708      0.011     60.302      0.000       0.649       0.693
+encoded_Method          0.0600      0.038      1.586      0.113      -0.014       0.134
+encoded_SellerG         0.2709      0.008     32.683      0.000       0.255       0.287
+encoded_CouncilArea     0.0373      0.014      2.623      0.009       0.009       0.065
+encoded_Regionname      0.0034      0.013      0.256      0.798      -0.023       0.029
+==============================================================================
+Omnibus:                    26545.764   Durbin-Watson:                   1.890
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1535721.251
+Skew:                           3.156   Prob(JB):                         0.00
+Kurtosis:                      34.899   Cond. No.                     4.11e+09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.11e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+------------------------------
+
+               Features  VIF_Values
+0                 const  2319807.63
+1                 Rooms        7.58
+2              Distance        2.30
+3              Postcode        1.67
+4              Bedroom2        7.64
+5              Bathroom        1.82
+6                   Car        1.28
+7              Landsize        1.37
+8          BuildingArea        1.38
+9             Lattitude        1.43
+10           Longtitude        1.45
+11        Propertycount        1.03
+12       encoded_Suburb        4.27
+13         encoded_Type        1.55
+14       encoded_Method        1.02
+15      encoded_SellerG        1.79
+16  encoded_CouncilArea        5.60
+17   encoded_Regionname        3.16
+
+------------------------------
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.644
+Model:                            OLS   Adj. R-squared:                  0.644
+Method:                 Least Squares   F-statistic:                     3938.
+Date:                Fri, 25 Oct 2024   Prob (F-statistic):               0.00
+Time:                        15:47:17   Log-Likelihood:            -4.9827e+05
+No. Observations:               34857   AIC:                         9.966e+05
+Df Residuals:                   34840   BIC:                         9.967e+05
+Df Model:                          16                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const               -2.079e+07   3.19e+06     -6.521      0.000    -2.7e+07   -1.45e+07
+Distance            -2.258e+04    467.032    -48.355      0.000   -2.35e+04   -2.17e+04
+Postcode              320.2015     24.821     12.900      0.000     271.552     368.851
+Bedroom2             1.702e+05   3382.914     50.325      0.000    1.64e+05    1.77e+05
+Bathroom             1.251e+05   4139.234     30.231      0.000    1.17e+05    1.33e+05
+Car                  2.792e+04   2530.401     11.034      0.000     2.3e+04    3.29e+04
+Landsize                2.2020      0.881      2.500      0.012       0.476       3.928
+BuildingArea           19.0592      4.379      4.352      0.000      10.476      27.642
+Lattitude           -5.012e+05   2.82e+04    -17.783      0.000   -5.56e+05   -4.46e+05
+Longtitude          -3595.4044   2.17e+04     -0.166      0.868    -4.6e+04    3.88e+04
+Propertycount           3.9705      0.479      8.291      0.000       3.032       4.909
+encoded_Suburb          0.6018      0.011     55.466      0.000       0.581       0.623
+encoded_Type            0.7494      0.011     68.190      0.000       0.728       0.771
+encoded_Method          0.0766      0.038      1.995      0.046       0.001       0.152
+encoded_SellerG         0.2738      0.008     32.578      0.000       0.257       0.290
+encoded_CouncilArea     0.0407      0.014      2.822      0.005       0.012       0.069
+encoded_Regionname      0.0090      0.013      0.666      0.505      -0.017       0.035
+==============================================================================
+Omnibus:                    25724.918   Durbin-Watson:                   1.897
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1569954.527
+Skew:                           2.982   Prob(JB):                         0.00
+Kurtosis:                      35.333   Cond. No.                     4.11e+09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.11e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+------------------------------
+
+               Features  VIF_Values
+0                 const  2319735.57
+1              Distance        2.29
+2              Postcode        1.67
+3              Bedroom2        2.38
+4              Bathroom        1.80
+5                   Car        1.28
+6              Landsize        1.37
+7          BuildingArea        1.38
+8             Lattitude        1.43
+9            Longtitude        1.45
+10        Propertycount        1.03
+11       encoded_Suburb        4.27
+12         encoded_Type        1.47
+13       encoded_Method        1.02
+14      encoded_SellerG        1.79
+15  encoded_CouncilArea        5.60
+16   encoded_Regionname        3.16
+
+------------------------------
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.641
+Model:                            OLS   Adj. R-squared:                  0.641
+Method:                 Least Squares   F-statistic:                     4437.
+Date:                Fri, 25 Oct 2024   Prob (F-statistic):               0.00
+Time:                        15:49:34   Log-Likelihood:            -4.9843e+05
+No. Observations:               34857   AIC:                         9.969e+05
+Df Residuals:                   34842   BIC:                         9.970e+05
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const               -2.414e+06   8.32e+04    -29.000      0.000   -2.58e+06   -2.25e+06
+Distance            -2.048e+04    443.002    -46.232      0.000   -2.13e+04   -1.96e+04
+Postcode              312.7680     24.672     12.677      0.000     264.410     361.126
+Bedroom2             1.675e+05   3389.962     49.421      0.000    1.61e+05    1.74e+05
+Bathroom             1.246e+05   4154.361     29.997      0.000    1.16e+05    1.33e+05
+Car                  2.679e+04   2539.772     10.549      0.000    2.18e+04    3.18e+04
+Landsize                1.9230      0.884      2.174      0.030       0.190       3.656
+BuildingArea           17.6894      4.398      4.022      0.000       9.069      26.310
+Propertycount           3.8587      0.480      8.031      0.000       2.917       4.800
+encoded_Suburb          0.6132      0.011     56.420      0.000       0.592       0.634
+encoded_Type            0.7386      0.011     67.012      0.000       0.717       0.760
+encoded_Method          0.0574      0.039      1.489      0.137      -0.018       0.133
+encoded_SellerG         0.2838      0.008     33.691      0.000       0.267       0.300
+encoded_CouncilArea     0.0504      0.014      3.509      0.000       0.022       0.079
+encoded_Regionname      0.0674      0.013      5.149      0.000       0.042       0.093
+==============================================================================
+Omnibus:                    25506.523   Durbin-Watson:                   1.887
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1520260.172
+Skew:                           2.949   Prob(JB):                         0.00
+Kurtosis:                      34.811   Cond. No.                     1.07e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.07e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+------------------------------
+
+               Features  VIF_Values
+0                 const     1566.75
+1              Distance        2.05
+2              Postcode        1.64
+3              Bedroom2        2.37
+4              Bathroom        1.79
+5                   Car        1.28
+6              Landsize        1.37
+7          BuildingArea        1.38
+8         Propertycount        1.02
+9        encoded_Suburb        4.24
+10         encoded_Type        1.46
+11       encoded_Method        1.01
+12      encoded_SellerG        1.78
+13  encoded_CouncilArea        5.50
+14   encoded_Regionname        2.96
+
+------------------------------
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.639
+Model:                            OLS   Adj. R-squared:                  0.639
+Method:                 Least Squares   F-statistic:                     4412.
+Date:                Fri, 25 Oct 2024   Prob (F-statistic):               0.00
+Time:                        18:43:07   Log-Likelihood:            -4.9849e+05
+No. Observations:               34857   AIC:                         9.970e+05
+Df Residuals:                   34842   BIC:                         9.971e+05
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const               -2.286e+06   8.36e+04    -27.357      0.000   -2.45e+06   -2.12e+06
+Distance            -2.186e+04    440.028    -49.683      0.000   -2.27e+04    -2.1e+04
+Postcode              256.1859     24.804     10.329      0.000     207.570     304.802
+Bedroom2             1.695e+05   3395.269     49.915      0.000    1.63e+05    1.76e+05
+Bathroom             1.248e+05   4162.129     29.981      0.000    1.17e+05    1.33e+05
+Car                  2.642e+04   2544.350     10.385      0.000    2.14e+04    3.14e+04
+Landsize                1.8406      0.886      2.077      0.038       0.104       3.577
+BuildingArea           17.9455      4.406      4.073      0.000       9.310      26.581
+Propertycount           4.8741      0.484     10.077      0.000       3.926       5.822
+encoded_Suburb          0.6044      0.011     55.498      0.000       0.583       0.626
+encoded_Type            0.7415      0.011     67.171      0.000       0.720       0.763
+encoded_Method          0.0696      0.039      1.801      0.072      -0.006       0.145
+encoded_SellerG         0.2844      0.009     32.846      0.000       0.267       0.301
+encoded_CouncilArea     0.0687      0.014      4.816      0.000       0.041       0.097
+encoded_Regionname      0.0826      0.013      6.331      0.000       0.057       0.108
+==============================================================================
+Omnibus:                    25457.138   Durbin-Watson:                   1.887
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1527928.931
+Skew:                           2.938   Prob(JB):                         0.00
+Kurtosis:                      34.898   Cond. No.                     1.07e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.07e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+------------------------------
+
+               Features  VIF_Values
+0                 const     1574.05
+1              Distance        2.01
+2              Postcode        1.65
+3              Bedroom2        2.37
+4              Bathroom        1.79
+5                   Car        1.28
+6              Landsize        1.37
+7          BuildingArea        1.38
+8         Propertycount        1.03
+9        encoded_Suburb        4.05
+10         encoded_Type        1.46
+11       encoded_Method        1.01
+12      encoded_SellerG        1.75
+13  encoded_CouncilArea        5.39
+14   encoded_Regionname        2.93
