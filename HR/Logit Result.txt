@@ -1,0 +1,50 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                   left   No. Observations:                14999
+Model:                          Logit   Df Residuals:                    14987
+Method:                           MLE   Df Model:                           11
+Date:                Tue, 05 Nov 2024   Pseudo R-squ.:                  0.3451
+Time:                        16:27:30   Log-Likelihood:                -5391.5
+converged:                      False   LL-Null:                       -8232.3
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                    -1.5948   3.95e+05  -4.03e-06      1.000   -7.75e+05    7.75e+05
+satisfaction_level       -4.0735      0.108    -37.757      0.000      -4.285      -3.862
+last_evaluation           0.6286      0.164      3.831      0.000       0.307       0.950
+number_project           -0.3066      0.023    -13.080      0.000      -0.353      -0.261
+average_montly_hours      0.0045      0.001      7.923      0.000       0.003       0.006
+time_spend_company        0.3144      0.017     18.827      0.000       0.282       0.347
+Work_accident            -1.5269      0.097    -15.773      0.000      -1.717      -1.337
+promotion_last_5years    -0.9808      0.267     -3.674      0.000      -1.504      -0.458
+Department                3.4274      0.080     42.631      0.000       3.270       3.585
+high                     -1.5344   3.95e+05  -3.88e-06      1.000   -7.75e+05    7.75e+05
+low                       0.2404   3.95e+05   6.08e-07      1.000   -7.75e+05    7.75e+05
+medium                   -0.3009   3.95e+05  -7.61e-07      1.000   -7.75e+05    7.75e+05
+=========================================================================================
+
+                  feature       vif
+0                   const  0.000000
+1      satisfaction_level  1.098911
+2         last_evaluation  1.242713
+3          number_project  1.353188
+4    average_montly_hours  1.279802
+5      time_spend_company  1.064055
+6           Work_accident  1.007957
+7   promotion_last_5years  1.020493
+8              Department  1.055182
+9                    high       inf
+10                    low       inf
+11                 medium       inf
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.94      0.90      8000
+           1       0.74      0.53      0.62      2500
+
+    accuracy                           0.84     10500
+   macro avg       0.80      0.74      0.76     10500
+weighted avg       0.84      0.84      0.83     10500
+
+
