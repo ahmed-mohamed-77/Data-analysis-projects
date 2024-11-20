@@ -1,0 +1,115 @@
+The Whole Dataset With All Feature In Ols Model
+                            Ols Regression Results                            
+==============================================================================
+Dep. Variable:                      Y   R-Squared:                       0.749
+Model:                            Ols   Adj. R-Squared:                  0.747
+Method:                 Least Squares   F-Statistic:                     446.9
+Date:                Wed, 20 Nov 2024   Prob (F-Statistic):               0.00
+Time:                        06:39:08   Log-Likelihood:                -12228.
+No. Observations:                1207   Aic:                         2.447E+04
+Df Residuals:                    1198   Bic:                         2.452E+04
+Df Model:                           8                                         
+Covariance Type:            Nonrobust                                         
+====================================================================================
+                       Coef    Std Err          T      P>|T|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept         8841.0705    119.934     73.716      0.000    8605.767    9076.374
+Sex_Female        4551.8338    188.217     24.184      0.000    4182.562    4921.106
+Sex_Male          4289.2366    184.070     23.302      0.000    3928.101    4650.372
+Smoker_No        -7550.0977    196.595    -38.404      0.000   -7935.807   -7164.388
+Smoker_Yes        1.639E+04    253.150     64.749      0.000    1.59E+04    1.69E+04
+Region_Northeast  2694.9297    311.121      8.662      0.000    2084.527    3305.332
+Region_Northwest  2423.5988    312.409      7.758      0.000    1810.669    3036.528
+Region_Southeast  1871.9306    309.086      6.056      0.000    1265.521    2478.340
+Region_Southwest  1850.6113    307.984      6.009      0.000    1246.362    2454.860
+Age               3643.8107    177.391     20.541      0.000    3295.780    3991.841
+Bmi               1992.7549    184.198     10.819      0.000    1631.367    2354.142
+Children           446.5732    146.345      3.052      0.002     159.452     733.695
+==============================================================================
+Omnibus:                      273.184   Durbin-Watson:                   2.109
+Prob(Omnibus):                  0.000   Jarque-Bera (Jb):              665.449
+Skew:                           1.209   Prob(Jb):                    3.16E-145
+Kurtosis:                       5.718   Cond. No.                     9.75E+15
+==============================================================================
+
+Notes:
+[1] Standard Errors Assume That The Covariance Matrix Of The Errors Is Correctly Specified.
+[2] The Smallest Eigenvalue Is 5.33E-29. This Might Indicate That There Are
+Strong Multicollinearity Problems Or That The Design Matrix Is Singular.
+
+R Squared: 0.7489986224696537, Model Degree Of Freedom: 8.0,             Degree Of Freedom Residuals : 1198.0, Data : (1207, 12)
+mallow_cp: 9.0
+Standard Error Of The Regression
+Root Mean Squared Error: 6100.43663003617
+               index        df            sum_sq           mean_sq         F  \
+11          Residual  1198.000   44583961838.350      37215327.077       nan   
+2          smoker_no     1.000  109376733312.640  109376733312.640  2939.024   
+8                age     1.000   18241623124.533   18241623124.533   490.164   
+9                bmi     1.000    4416373099.423    4416373099.423   118.671   
+0         sex_female     1.000     463452375.408     463452375.408    12.453   
+10          children     1.000     356416140.536     356416140.536     9.577   
+3         smoker_yes     1.000     243752867.701     243752867.701     6.550   
+1           sex_male     1.000      76571331.435      76571331.435     2.058   
+4   region_northeast     1.000       3032306.358       3032306.358     0.081   
+5   region_northwest     1.000      34485239.410      34485239.410     0.927   
+6   region_southeast     1.000      84264106.072      84264106.072     2.264   
+7   region_southwest     1.000      15362602.569      15362602.569     0.413   
+
+   PR(>F)    vif squared_semi_partial_correlation  
+11    nan    nan                              nan  
+2   0.000    inf                            0.616  
+8   0.000  1.100                            0.103  
+9   0.000  1.005                            0.025  
+0   0.000    inf                            0.003  
+10  0.002    nan                            0.002  
+3   0.011    inf                            0.001  
+1   0.152    inf                            0.000  
+4   0.775    inf                            0.000  
+5   0.336    inf                            0.000  
+6   0.133    inf                            0.000  
+7   0.521  1.021                            0.000  
+
+The Updated Model In Ols Model
+                            Ols Regression Results                            
+==============================================================================
+Dep. Variable:                      Y   R-Squared:                       0.746
+Model:                            Ols   Adj. R-Squared:                  0.745
+Method:                 Least Squares   F-Statistic:                     1178.
+Date:                Wed, 20 Nov 2024   Prob (F-Statistic):               0.00
+Time:                        06:39:08   Log-Likelihood:                -12235.
+No. Observations:                1207   Aic:                         2.448E+04
+Df Residuals:                    1203   Bic:                         2.450E+04
+Df Model:                           3                                         
+Covariance Type:            Nonrobust                                         
+==============================================================================
+                 Coef    Std Err          T      P>|T|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   3.231E+04    389.059     83.052      0.000    3.15E+04    3.31E+04
+Smoker_No  -2.391E+04    436.546    -54.781      0.000   -2.48E+04   -2.31E+04
+Age         3682.3867    177.625     20.731      0.000    3333.898    4030.875
+Bmi         1915.2333    177.500     10.790      0.000    1566.990    2263.476
+==============================================================================
+Omnibus:                      275.205   Durbin-Watson:                   2.099
+Prob(Omnibus):                  0.000   Jarque-Bera (Jb):              669.716
+Skew:                           1.218   Prob(Jb):                    3.74E-146
+Kurtosis:                       5.718   Cond. No.                         4.21
+==============================================================================
+
+Notes:
+[1] Standard Errors Assume That The Covariance Matrix Of The Errors Is Correctly Specified.
+
+R Squared: 0.7460777423029881, Model Degree Of Freedom: 3.0,             Degree Of Freedom Residuals : 1203.0, Data : (1207, 12)
+mallow_cp: 12.941016874467778
+Standard Error Of The Regression
+Root Mean Squared Error: 331262.2663340478
+       index        df            sum_sq           mean_sq         F PR(>F)  \
+3   Residual  1203.000   45102781341.121      37491921.314       nan    nan   
+0  smoker_no     1.000  109734689096.770  109734689096.770  2926.889  0.000   
+1        age     1.000   18421879772.991   18421879772.991   491.356  0.000   
+2        bmi     1.000    4365020926.126    4365020926.126   116.426  0.000   
+
+     vif squared_semi_partial_correlation  
+3    nan                              nan  
+0  1.014                            0.618  
+1  1.014                            0.104  
+2    nan                            0.025  
