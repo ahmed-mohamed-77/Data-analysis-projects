@@ -1,0 +1,110 @@
+random_state = 281
+RandomForest CV scores (each fold): [56.25, 87.5, 62.5, 80.0, 60.0, 73.33, 66.67, 66.67, 66.67, 73.33]
+RandomForest mean CV score (average accuracy): 69.29
+LogisticRegression CV scores (each fold): [68.75, 81.25, 62.5, 73.33, 73.33, 86.67, 73.33, 66.67, 66.67, 66.67]
+LogisticRegression mean CV score (average accuracy): 71.92
+RandomForest CV scores on scaled data (each fold): [70.13, 75.32, 79.22, 64.94, 75.32, 79.22, 77.92, 81.82, 68.42, 78.95]
+RandomForest mean CV score on scaled data (average accuracy): 75.13
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 176
+RandomForest CV scores (each fold): [87.5, 75.0, 81.25, 73.33, 86.67, 60.0, 60.0, 66.67, 60.0, 60.0]
+RandomForest mean CV score (average accuracy): 71.04
+LogisticRegression CV scores (each fold): [87.5, 75.0, 87.5, 73.33, 93.33, 66.67, 60.0, 86.67, 73.33, 86.67]
+LogisticRegression mean CV score (average accuracy): 79.0
+RandomForest CV scores on scaled data (each fold): [72.73, 76.62, 77.92, 67.53, 68.83, 77.92, 77.92, 76.62, 67.11, 78.95]
+RandomForest mean CV score on scaled data (average accuracy): 74.22
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 710
+RandomForest CV scores (each fold): [93.75, 75.0, 56.25, 53.33, 80.0, 80.0, 66.67, 66.67, 60.0, 86.67]
+RandomForest mean CV score (average accuracy): 71.83
+LogisticRegression CV scores (each fold): [87.5, 81.25, 68.75, 66.67, 80.0, 86.67, 66.67, 73.33, 66.67, 86.67]
+LogisticRegression mean CV score (average accuracy): 76.42
+RandomForest CV scores on scaled data (each fold): [72.73, 77.92, 77.92, 66.23, 74.03, 75.32, 77.92, 80.52, 71.05, 78.95]
+RandomForest mean CV score on scaled data (average accuracy): 75.26
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 576
+RandomForest CV scores (each fold): [68.75, 81.25, 81.25, 60.0, 86.67, 80.0, 73.33, 80.0, 66.67, 66.67]
+RandomForest mean CV score (average accuracy): 74.46
+LogisticRegression CV scores (each fold): [68.75, 81.25, 81.25, 80.0, 86.67, 86.67, 73.33, 73.33, 66.67, 73.33]
+LogisticRegression mean CV score (average accuracy): 77.12
+RandomForest CV scores on scaled data (each fold): [70.13, 76.62, 75.32, 66.23, 75.32, 80.52, 75.32, 81.82, 67.11, 77.63]
+RandomForest mean CV score on scaled data (average accuracy): 74.6
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 926
+RandomForest CV scores (each fold): [68.75, 75.0, 87.5, 86.67, 66.67, 80.0, 66.67, 66.67, 80.0, 93.33]
+RandomForest mean CV score (average accuracy): 77.12
+LogisticRegression CV scores (each fold): [81.25, 68.75, 75.0, 73.33, 66.67, 73.33, 60.0, 60.0, 73.33, 86.67]
+LogisticRegression mean CV score (average accuracy): 71.83
+RandomForest CV scores on scaled data (each fold): [67.53, 74.03, 75.32, 66.23, 74.03, 77.92, 79.22, 81.82, 67.11, 80.26]
+RandomForest mean CV score on scaled data (average accuracy): 74.35
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 973
+RandomForest CV scores (each fold): [68.75, 56.25, 87.5, 80.0, 86.67, 60.0, 86.67, 53.33, 80.0, 73.33]
+RandomForest mean CV score (average accuracy): 73.25
+LogisticRegression CV scores (each fold): [81.25, 68.75, 68.75, 66.67, 93.33, 86.67, 86.67, 60.0, 93.33, 66.67]
+LogisticRegression mean CV score (average accuracy): 77.21
+RandomForest CV scores on scaled data (each fold): [71.43, 80.52, 79.22, 64.94, 74.03, 75.32, 76.62, 81.82, 71.05, 80.26]
+RandomForest mean CV score on scaled data (average accuracy): 75.52
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 533
+RandomForest CV scores (each fold): [56.25, 75.0, 56.25, 73.33, 73.33, 80.0, 80.0, 86.67, 86.67, 73.33]
+RandomForest mean CV score (average accuracy): 74.08
+LogisticRegression CV scores (each fold): [81.25, 68.75, 56.25, 66.67, 73.33, 80.0, 86.67, 86.67, 86.67, 73.33]
+LogisticRegression mean CV score (average accuracy): 75.96
+RandomForest CV scores on scaled data (each fold): [68.83, 83.12, 75.32, 68.83, 74.03, 80.52, 77.92, 81.82, 71.05, 80.26]
+RandomForest mean CV score on scaled data (average accuracy): 76.17
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 480
+RandomForest CV scores (each fold): [75.0, 81.25, 81.25, 86.67, 80.0, 66.67, 93.33, 80.0, 66.67, 66.67]
+RandomForest mean CV score (average accuracy): 77.75
+LogisticRegression CV scores (each fold): [93.75, 68.75, 81.25, 93.33, 73.33, 73.33, 93.33, 80.0, 60.0, 66.67]
+LogisticRegression mean CV score (average accuracy): 78.38
+RandomForest CV scores on scaled data (each fold): [71.43, 75.32, 74.03, 64.94, 72.73, 76.62, 76.62, 81.82, 69.74, 78.95]
+RandomForest mean CV score on scaled data (average accuracy): 74.22
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 812
+RandomForest CV scores (each fold): [68.75, 81.25, 81.25, 80.0, 86.67, 93.33, 73.33, 80.0, 60.0, 73.33]
+RandomForest mean CV score (average accuracy): 77.79
+LogisticRegression CV scores (each fold): [81.25, 81.25, 81.25, 86.67, 86.67, 93.33, 80.0, 80.0, 66.67, 66.67]
+LogisticRegression mean CV score (average accuracy): 80.38
+RandomForest CV scores on scaled data (each fold): [67.53, 77.92, 80.52, 67.53, 76.62, 77.92, 76.62, 75.32, 69.74, 82.89]
+RandomForest mean CV score on scaled data (average accuracy): 75.26
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
+random_state = 220
+RandomForest CV scores (each fold): [75.0, 68.75, 68.75, 73.33, 80.0, 60.0, 80.0, 73.33, 86.67, 60.0]
+RandomForest mean CV score (average accuracy): 72.58
+LogisticRegression CV scores (each fold): [75.0, 75.0, 81.25, 73.33, 66.67, 60.0, 93.33, 80.0, 93.33, 80.0]
+LogisticRegression mean CV score (average accuracy): 77.79
+RandomForest CV scores on scaled data (each fold): [74.03, 80.52, 79.22, 64.94, 70.13, 77.92, 75.32, 80.52, 68.42, 76.32]
+RandomForest mean CV score on scaled data (average accuracy): 74.73
+LogisticRegression CV scores on scaled data (each fold): [75.32, 76.62, 76.62, 70.13, 76.62, 79.22, 76.62, 80.52, 72.37, 82.89]
+LogisticRegression mean CV score on scaled data (average accuracy): 76.7
+--------------------------------------------------
+
